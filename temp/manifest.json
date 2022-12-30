@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "ba781070-8744-11ed-82e7-b3d1166d87da",
+  "version": "0.0.1",
+  "packageName": "suggestionbox",
+  "developer": {
+    "name": "simform",
+    "websiteUrl": "https://suggestionbox.azurewebsites.net",
+    "privacyUrl": "https://suggestionbox.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://suggestionbox.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "Form-Tab",
+    "full": "Form-Tab"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://suggestionbox.azurewebsites.net/formTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team",
+        "groupchat"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "suggestionbox.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false,
+  "isFullScreen": false,
+  "webApplicationInfo": {
+    "id": "f4814d23-3835-4d87-a7dc-57a19c04684a",
+    "resource": "api://suggestionbox.azurewebsites.net/f4814d23-3835-4d87-a7dc-57a19c04684a"
+  }
+}

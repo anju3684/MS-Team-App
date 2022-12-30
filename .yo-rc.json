@@ -1,0 +1,12 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "simform",
+      "unitTestsEnabled": false,
+      "lintingSupport": false,
+      "useAzureAppInsights": false
+    },
+    "libraryName": "suggestionBox",
+    "generator-version": "4.0.1"
+  }
+}
