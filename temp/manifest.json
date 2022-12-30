@@ -42,12 +42,14 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "suggestionbox.azurewebsites.net"
+    "suggestionbox.azurewebsites.net",
+    "localhost:3007",
+    "vercel.app"
   ],
   "showLoadingIndicator": false,
   "isFullScreen": false,
   "webApplicationInfo": {
     "id": "f4814d23-3835-4d87-a7dc-57a19c04684a",
-    "resource": "api://suggestionbox.azurewebsites.net/f4814d23-3835-4d87-a7dc-57a19c04684a"
+    "resource": "api://ms-team-app.vercel.app//f4814d23-3835-4d87-a7dc-57a19c04684a"
   }
 }
